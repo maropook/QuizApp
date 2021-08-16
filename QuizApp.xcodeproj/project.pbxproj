@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		301CDE4626CA40C9003C9B39 /* SelectLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301CDE4526CA40C9003C9B39 /* SelectLevelViewController.swift */; };
-		301CDE4C26CA43C3003C9B39 /* GoogleUtilities.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301CDE4726CA43C3003C9B39 /* GoogleUtilities.xcframework */; };
-		301CDE4D26CA43C3003C9B39 /* nanopb.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301CDE4826CA43C3003C9B39 /* nanopb.xcframework */; };
-		301CDE4E26CA43C3003C9B39 /* GoogleAppMeasurement.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301CDE4926CA43C3003C9B39 /* GoogleAppMeasurement.xcframework */; };
-		301CDE4F26CA43C3003C9B39 /* GoogleMobileAds.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301CDE4A26CA43C3003C9B39 /* GoogleMobileAds.xcframework */; };
-		301CDE5026CA43C3003C9B39 /* PromisesObjC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301CDE4B26CA43C3003C9B39 /* PromisesObjC.xcframework */; };
+		301CDE5726CA4760003C9B39 /* PromisesObjC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301CDE5126CA475D003C9B39 /* PromisesObjC.xcframework */; };
+		301CDE5826CA4760003C9B39 /* GoogleAppMeasurement.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301CDE5226CA475D003C9B39 /* GoogleAppMeasurement.xcframework */; };
+		301CDE5926CA4760003C9B39 /* GoogleMobileAds.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301CDE5326CA475E003C9B39 /* GoogleMobileAds.xcframework */; };
+		301CDE5A26CA4760003C9B39 /* GoogleUtilities.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301CDE5426CA475E003C9B39 /* GoogleUtilities.xcframework */; };
+		301CDE5B26CA4760003C9B39 /* UserMessagingPlatform.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301CDE5526CA475F003C9B39 /* UserMessagingPlatform.xcframework */; };
+		301CDE5C26CA4760003C9B39 /* nanopb.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301CDE5626CA475F003C9B39 /* nanopb.xcframework */; };
 		3047E66726C8E9AC00F46550 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3047E66626C8E9AC00F46550 /* AppDelegate.swift */; };
 		3047E66926C8E9AC00F46550 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3047E66826C8E9AC00F46550 /* SceneDelegate.swift */; };
 		3047E66B26C8E9AC00F46550 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3047E66A26C8E9AC00F46550 /* ViewController.swift */; };
@@ -28,11 +29,12 @@
 
 /* Begin PBXFileReference section */
 		301CDE4526CA40C9003C9B39 /* SelectLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLevelViewController.swift; sourceTree = "<group>"; };
-		301CDE4726CA43C3003C9B39 /* GoogleUtilities.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleUtilities.xcframework; sourceTree = SOURCE_ROOT; };
-		301CDE4826CA43C3003C9B39 /* nanopb.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = nanopb.xcframework; sourceTree = SOURCE_ROOT; };
-		301CDE4926CA43C3003C9B39 /* GoogleAppMeasurement.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleAppMeasurement.xcframework; sourceTree = SOURCE_ROOT; };
-		301CDE4A26CA43C3003C9B39 /* GoogleMobileAds.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleMobileAds.xcframework; sourceTree = SOURCE_ROOT; };
-		301CDE4B26CA43C3003C9B39 /* PromisesObjC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = PromisesObjC.xcframework; sourceTree = SOURCE_ROOT; };
+		301CDE5126CA475D003C9B39 /* PromisesObjC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = PromisesObjC.xcframework; sourceTree = "<group>"; };
+		301CDE5226CA475D003C9B39 /* GoogleAppMeasurement.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleAppMeasurement.xcframework; sourceTree = "<group>"; };
+		301CDE5326CA475E003C9B39 /* GoogleMobileAds.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleMobileAds.xcframework; sourceTree = "<group>"; };
+		301CDE5426CA475E003C9B39 /* GoogleUtilities.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleUtilities.xcframework; sourceTree = "<group>"; };
+		301CDE5526CA475F003C9B39 /* UserMessagingPlatform.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = UserMessagingPlatform.xcframework; sourceTree = "<group>"; };
+		301CDE5626CA475F003C9B39 /* nanopb.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = nanopb.xcframework; sourceTree = "<group>"; };
 		3047E66326C8E9AC00F46550 /* QuizApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3047E66626C8E9AC00F46550 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3047E66826C8E9AC00F46550 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,11 +55,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				301CDE4C26CA43C3003C9B39 /* GoogleUtilities.xcframework in Frameworks */,
-				301CDE4E26CA43C3003C9B39 /* GoogleAppMeasurement.xcframework in Frameworks */,
-				301CDE4D26CA43C3003C9B39 /* nanopb.xcframework in Frameworks */,
-				301CDE4F26CA43C3003C9B39 /* GoogleMobileAds.xcframework in Frameworks */,
-				301CDE5026CA43C3003C9B39 /* PromisesObjC.xcframework in Frameworks */,
+				301CDE5826CA4760003C9B39 /* GoogleAppMeasurement.xcframework in Frameworks */,
+				301CDE5B26CA4760003C9B39 /* UserMessagingPlatform.xcframework in Frameworks */,
+				301CDE5C26CA4760003C9B39 /* nanopb.xcframework in Frameworks */,
+				301CDE5726CA4760003C9B39 /* PromisesObjC.xcframework in Frameworks */,
+				301CDE5A26CA4760003C9B39 /* GoogleUtilities.xcframework in Frameworks */,
+				301CDE5926CA4760003C9B39 /* GoogleMobileAds.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,11 +86,12 @@
 		3047E66526C8E9AC00F46550 /* QuizApp */ = {
 			isa = PBXGroup;
 			children = (
-				301CDE4926CA43C3003C9B39 /* GoogleAppMeasurement.xcframework */,
-				301CDE4A26CA43C3003C9B39 /* GoogleMobileAds.xcframework */,
-				301CDE4726CA43C3003C9B39 /* GoogleUtilities.xcframework */,
-				301CDE4826CA43C3003C9B39 /* nanopb.xcframework */,
-				301CDE4B26CA43C3003C9B39 /* PromisesObjC.xcframework */,
+				301CDE5226CA475D003C9B39 /* GoogleAppMeasurement.xcframework */,
+				301CDE5326CA475E003C9B39 /* GoogleMobileAds.xcframework */,
+				301CDE5426CA475E003C9B39 /* GoogleUtilities.xcframework */,
+				301CDE5626CA475F003C9B39 /* nanopb.xcframework */,
+				301CDE5126CA475D003C9B39 /* PromisesObjC.xcframework */,
+				301CDE5526CA475F003C9B39 /* UserMessagingPlatform.xcframework */,
 				3047E66626C8E9AC00F46550 /* AppDelegate.swift */,
 				3047E66826C8E9AC00F46550 /* SceneDelegate.swift */,
 				3047E66A26C8E9AC00F46550 /* ViewController.swift */,

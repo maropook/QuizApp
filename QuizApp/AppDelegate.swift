@@ -4,7 +4,7 @@
 //
 //  Created by 長谷川樹 on 2021/08/15.
 //
-
+import GoogleMobileAds
 import UIKit
 
 @main
@@ -14,6 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        GADMobileAds.sharedInstance().start(completionHandler: nil)
         return true
     }
 

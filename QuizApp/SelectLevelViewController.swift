@@ -2,19 +2,20 @@ import UIKit
 
 class SelectLevelViewController: UIViewController {
 
+    @IBOutlet weak var levelButton1: UIButton!
+    @IBOutlet weak var levelButton2: UIButton!
+    @IBOutlet weak var levelButton3: UIButton!
     var selectTag = 0
-//    @IBOutlet weak var level1Button: UIButton!
-//    @IBOutlet weak var level2Button: UIButton!
-//    @IBOutlet weak var level3Button: UIButton!
-//    override func viewDidLoad() {
-//        super.viewDidLoad()
-//        level1Button.layer.borderWidth = 2
-//        level1Button.layer.borderColor = UIColor.black.cgColor
-//        level2Button.layer.borderWidth = 2
-//        level2Button.layer.borderColor = UIColor.black.cgColor
-//        level3Button.layer.borderWidth = 2
-//        level3Button.layer.borderColor = UIColor.black.cgColor
-//    }
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        levelButton1.layer.borderWidth = 2
+        levelButton1.layer.borderColor = UIColor.black.cgColor
+        levelButton2.layer.borderWidth = 2
+        levelButton2.layer.borderColor = UIColor.black.cgColor
+        levelButton3.layer.borderWidth = 2
+        levelButton3.layer.borderColor = UIColor.black.cgColor
+    }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let quizVC = segue.destination as! QuizViewController
         quizVC.selectLevel = selectTag

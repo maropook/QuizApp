@@ -1,21 +1,20 @@
-//
-//  ScoreViewController.swift
-//  QuizApp
-//
-//  Created by 長谷川樹 on 2021/08/15.
-//
 
 import UIKit
 
 class ScoreViewController: UIViewController {
-    var correct = 0
+    @IBOutlet weak var shareButton: UIButton!
+    @IBOutlet weak var returnTopButton: UIButton!
     @IBOutlet weak var scoreLabel: UILabel!
+    var correct = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
         scoreLabel.text = "\(correct)問正解"
 
-        // Do any additional setup after loading the view.
+        shareButton.layer.borderWidth = 2
+        shareButton.layer.borderColor = UIColor.black.cgColor
+        returnTopButton.layer.borderWidth = 2
+        returnTopButton.layer.borderColor = UIColor.black.cgColor
     }
     
     @IBAction func shareButtonAction(_ sender: Any) {

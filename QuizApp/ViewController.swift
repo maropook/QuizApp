@@ -2,13 +2,15 @@ import GoogleMobileAds
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var startButton: UIButton!
+    
   var bannerView: GADBannerView!
 
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    // In this case, we instantiate the banner with desired ad size.
+    startButton.layer.borderWidth = 2
+    startButton.layer.borderColor = UIColor.black.cgColor
     bannerView = GADBannerView(adSize: kGADAdSizeBanner)
     addBannerViewToView(bannerView)
     bannerView.adUnitID = "ca-app-pub-3940256099942544/2934735716"

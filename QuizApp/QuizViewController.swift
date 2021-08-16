@@ -15,8 +15,8 @@ class QuizViewController: UIViewController {
     @IBOutlet weak var answerButton2: UIButton!
     @IBOutlet weak var answerButton3: UIButton!
     @IBOutlet weak var answerButton4: UIButton!
-    
     @IBOutlet weak var judgeImageView: UIImageView!
+    
     var csvArray: [String] = []
     var quizArray: [String] = []
     var quizCount = 0
@@ -28,7 +28,6 @@ class QuizViewController: UIViewController {
         
         print("選択したのはレベル\(selectLevel)")
         csvArray = loadCSV(fileName: "quiz\(selectLevel)")
-        csvArray.shuffle()
         print(csvArray)
         
         quizArray = csvArray[quizCount].components(separatedBy: ",")
@@ -43,9 +42,14 @@ class QuizViewController: UIViewController {
         )
         answerButton4.setTitle(quizArray[5], for: .normal
         )
-        
-        
-        // Do any additional setup after loading the view.
+        answerButton1.layer.borderWidth = 2
+        answerButton1.layer.borderColor = UIColor.black.cgColor
+        answerButton2.layer.borderWidth = 2
+        answerButton2.layer.borderColor = UIColor.black.cgColor
+        answerButton3.layer.borderWidth = 2
+        answerButton3.layer.borderColor = UIColor.black.cgColor
+        answerButton4.layer.borderWidth = 2
+        answerButton4.layer.borderColor = UIColor.black.cgColor
     }
     
     

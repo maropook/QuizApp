@@ -102,10 +102,13 @@
                         <viewLayoutGuide key="safeArea" id="KRL-6k-ySO"/>
                         <color key="backgroundColor" red="0.73333333329999995" green="1" blue="0.93299896260000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <segue destination="Yb7-ty-fTn" kind="presentation" identifier="toQuizVC" id="p2f-eh-Jwn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z19-w7-ZgB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="256.52173913043481" y="113.83928571428571"/>
+            <point key="canvasLocation" x="272" y="96"/>
         </scene>
         <!--Quiz View Controller-->
         <scene sceneID="DZQ-ZT-fQq">

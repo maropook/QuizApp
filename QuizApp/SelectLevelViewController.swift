@@ -15,15 +15,15 @@ class SelectLevelViewController: UIViewController {
 //        level3Button.layer.borderWidth = 2
 //        level3Button.layer.borderColor = UIColor.black.cgColor
 //    }
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        let quizVC = segue.destination as! QuizViewController
-//        quizVC.selectLevel = selectTag
-//    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let quizVC = segue.destination as! QuizViewController
+        quizVC.selectLevel = selectTag
+    }
     
     @IBAction func levelButtonAction(sender: UIButton) {
         print(sender.tag)
         selectTag = (sender.tag)
-//        performSegue(withIdentifier: "toQuizVC", sender: nil)
+        performSegue(withIdentifier: "toQuizVC", sender: nil)
     }
 }
 

@@ -3,10 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		301CDE4626CA40C9003C9B39 /* SelectLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301CDE4526CA40C9003C9B39 /* SelectLevelViewController.swift */; };
+		301CDE5726CA4760003C9B39 /* PromisesObjC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301CDE5126CA475D003C9B39 /* PromisesObjC.xcframework */; };
+		301CDE5826CA4760003C9B39 /* GoogleAppMeasurement.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301CDE5226CA475D003C9B39 /* GoogleAppMeasurement.xcframework */; };
+		301CDE5926CA4760003C9B39 /* GoogleMobileAds.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301CDE5326CA475E003C9B39 /* GoogleMobileAds.xcframework */; };
+		301CDE5A26CA4760003C9B39 /* GoogleUtilities.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301CDE5426CA475E003C9B39 /* GoogleUtilities.xcframework */; };
+		301CDE5B26CA4760003C9B39 /* UserMessagingPlatform.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301CDE5526CA475F003C9B39 /* UserMessagingPlatform.xcframework */; };
+		301CDE5C26CA4760003C9B39 /* nanopb.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301CDE5626CA475F003C9B39 /* nanopb.xcframework */; };
+		301CDE6026CA49A6003C9B39 /* quiz2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 301CDE5D26CA49A5003C9B39 /* quiz2.csv */; };
+		301CDE6126CA49A6003C9B39 /* quiz1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 301CDE5E26CA49A6003C9B39 /* quiz1.csv */; };
+		301CDE6226CA49A6003C9B39 /* quiz3.csv in Resources */ = {isa = PBXBuildFile; fileRef = 301CDE5F26CA49A6003C9B39 /* quiz3.csv */; };
 		3047E66726C8E9AC00F46550 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3047E66626C8E9AC00F46550 /* AppDelegate.swift */; };
 		3047E66926C8E9AC00F46550 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3047E66826C8E9AC00F46550 /* SceneDelegate.swift */; };
 		3047E66B26C8E9AC00F46550 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3047E66A26C8E9AC00F46550 /* ViewController.swift */; };
@@ -15,12 +25,22 @@
 		3047E67326C8E9B100F46550 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3047E67126C8E9B100F46550 /* LaunchScreen.storyboard */; };
 		3047E67B26C8EF4200F46550 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3047E67A26C8EF4200F46550 /* QuizViewController.swift */; };
 		3047E67D26C8EFA600F46550 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3047E67C26C8EFA600F46550 /* ScoreViewController.swift */; };
-		3047E67F26C8F19C00F46550 /* quiz.csv in Resources */ = {isa = PBXBuildFile; fileRef = 3047E67E26C8F19C00F46550 /* quiz.csv */; };
 		3047E68326C930F700F46550 /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = 3047E68126C930F600F46550 /* correct.png */; };
 		3047E68426C930F700F46550 /* incorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = 3047E68226C930F600F46550 /* incorrect.png */; };
+		30E5BBC326CA63E0000498EA /* launchImageView.png in Resources */ = {isa = PBXBuildFile; fileRef = 30E5BBC226CA63E0000498EA /* launchImageView.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		301CDE4526CA40C9003C9B39 /* SelectLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLevelViewController.swift; sourceTree = "<group>"; };
+		301CDE5126CA475D003C9B39 /* PromisesObjC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = PromisesObjC.xcframework; sourceTree = "<group>"; };
+		301CDE5226CA475D003C9B39 /* GoogleAppMeasurement.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleAppMeasurement.xcframework; sourceTree = "<group>"; };
+		301CDE5326CA475E003C9B39 /* GoogleMobileAds.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleMobileAds.xcframework; sourceTree = "<group>"; };
+		301CDE5426CA475E003C9B39 /* GoogleUtilities.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleUtilities.xcframework; sourceTree = "<group>"; };
+		301CDE5526CA475F003C9B39 /* UserMessagingPlatform.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = UserMessagingPlatform.xcframework; sourceTree = "<group>"; };
+		301CDE5626CA475F003C9B39 /* nanopb.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = nanopb.xcframework; sourceTree = "<group>"; };
+		301CDE5D26CA49A5003C9B39 /* quiz2.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz2.csv; sourceTree = SOURCE_ROOT; };
+		301CDE5E26CA49A6003C9B39 /* quiz1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz1.csv; sourceTree = SOURCE_ROOT; };
+		301CDE5F26CA49A6003C9B39 /* quiz3.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz3.csv; sourceTree = SOURCE_ROOT; };
 		3047E66326C8E9AC00F46550 /* QuizApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3047E66626C8E9AC00F46550 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3047E66826C8E9AC00F46550 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,9 +51,9 @@
 		3047E67426C8E9B100F46550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3047E67A26C8EF4200F46550 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		3047E67C26C8EFA600F46550 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
-		3047E67E26C8F19C00F46550 /* quiz.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz.csv; sourceTree = "<group>"; };
 		3047E68126C930F600F46550 /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
 		3047E68226C930F600F46550 /* incorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incorrect.png; sourceTree = "<group>"; };
+		30E5BBC226CA63E0000498EA /* launchImageView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImageView.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +61,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				301CDE5826CA4760003C9B39 /* GoogleAppMeasurement.xcframework in Frameworks */,
+				301CDE5B26CA4760003C9B39 /* UserMessagingPlatform.xcframework in Frameworks */,
+				301CDE5C26CA4760003C9B39 /* nanopb.xcframework in Frameworks */,
+				301CDE5726CA4760003C9B39 /* PromisesObjC.xcframework in Frameworks */,
+				301CDE5A26CA4760003C9B39 /* GoogleUtilities.xcframework in Frameworks */,
+				301CDE5926CA4760003C9B39 /* GoogleMobileAds.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,16 +92,26 @@
 		3047E66526C8E9AC00F46550 /* QuizApp */ = {
 			isa = PBXGroup;
 			children = (
+				301CDE5226CA475D003C9B39 /* GoogleAppMeasurement.xcframework */,
+				301CDE5326CA475E003C9B39 /* GoogleMobileAds.xcframework */,
+				301CDE5426CA475E003C9B39 /* GoogleUtilities.xcframework */,
+				301CDE5626CA475F003C9B39 /* nanopb.xcframework */,
+				301CDE5126CA475D003C9B39 /* PromisesObjC.xcframework */,
+				301CDE5526CA475F003C9B39 /* UserMessagingPlatform.xcframework */,
 				3047E66626C8E9AC00F46550 /* AppDelegate.swift */,
 				3047E66826C8E9AC00F46550 /* SceneDelegate.swift */,
 				3047E66A26C8E9AC00F46550 /* ViewController.swift */,
 				3047E66C26C8E9AC00F46550 /* Main.storyboard */,
-				3047E67E26C8F19C00F46550 /* quiz.csv */,
+				301CDE4526CA40C9003C9B39 /* SelectLevelViewController.swift */,
 				3047E67C26C8EFA600F46550 /* ScoreViewController.swift */,
+				301CDE5E26CA49A6003C9B39 /* quiz1.csv */,
+				301CDE5D26CA49A5003C9B39 /* quiz2.csv */,
+				301CDE5F26CA49A6003C9B39 /* quiz3.csv */,
 				3047E67A26C8EF4200F46550 /* QuizViewController.swift */,
 				3047E66F26C8E9B100F46550 /* Assets.xcassets */,
 				3047E67126C8E9B100F46550 /* LaunchScreen.storyboard */,
 				3047E67426C8E9B100F46550 /* Info.plist */,
+				30E5BBC226CA63E0000498EA /* launchImageView.png */,
 				3047E68026C930F600F46550 /* image */,
 			);
 			path = QuizApp;
@@ -147,12 +183,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30E5BBC326CA63E0000498EA /* launchImageView.png in Resources */,
 				3047E68326C930F700F46550 /* correct.png in Resources */,
 				3047E68426C930F700F46550 /* incorrect.png in Resources */,
+				301CDE6026CA49A6003C9B39 /* quiz2.csv in Resources */,
+				301CDE6126CA49A6003C9B39 /* quiz1.csv in Resources */,
 				3047E67326C8E9B100F46550 /* LaunchScreen.storyboard in Resources */,
 				3047E67026C8E9B100F46550 /* Assets.xcassets in Resources */,
 				3047E66E26C8E9AC00F46550 /* Main.storyboard in Resources */,
-				3047E67F26C8F19C00F46550 /* quiz.csv in Resources */,
+				301CDE6226CA49A6003C9B39 /* quiz3.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +207,7 @@
 				3047E67D26C8EFA600F46550 /* ScoreViewController.swift in Sources */,
 				3047E66926C8E9AC00F46550 /* SceneDelegate.swift in Sources */,
 				3047E67B26C8EF4200F46550 /* QuizViewController.swift in Sources */,
+				301CDE4626CA40C9003C9B39 /* SelectLevelViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +288,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -302,6 +343,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -324,7 +366,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.maropook.QuizApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -343,7 +385,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.maropook.QuizApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
